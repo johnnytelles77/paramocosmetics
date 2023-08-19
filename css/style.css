@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    height: 80px;
+    background-color: rgb(218, 126, 198);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
+}
+header aside img{
+    height: 100%;
+}
+
+header ul{
+    list-style: none;
+}
+
+header ul li{
+    display: inline-block;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+header a:hover{
+    color: rgba(213, 25, 25, 0.96);
+}
+
+.main{
+    height: 600px;
+    width: 100%;
+    background-color: pink;
+    background-image: url(../img/makeup-brush-g99cd26ed5_1280.jpg);
+    background-size:60%;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.main{
+    background-image: url(../img/makeup-brushes-gced8d7a44_1280.jpg);
+}
+
+.call{
+    width: 50%;
+}
+
+h1{
+    color: rgb(174, 25, 144);
+    font-size: 40px;
+}
+
+.call p{
+    margin-bottom: 20px;
+    color: rgb(216, 79, 136);
+}
+
+.call a{
+    background-color: rgb(182, 34, 140);
+    color: beige;
+    padding: 10px 20px;
+}
+
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(218, 126, 198);
+    padding: 15px;
+}
+
+section{
+    height: 700px;
+    width: 100%;
+    background-color: white;
+}
+
+.seccion1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.caja{
+    height: 120px;
+    width: 120px;background-color: rgb(218, 126, 198);
+    border: 2px solid rgb(212, 37, 125);
+    font-size: 30px;
+    text-align: center;
+    line-height: 120px;
+    text-transform: uppercase;
+} 
+
+footer{
+    background-color: rgb(218, 126, 198);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.redes{
+    color: rgb(218, 126, 198);
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+
+.subir{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(174, 25, 144);
+    color: white;
+    position: fixed;
+    right: 0px;
+    bottom: 40px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 40px;
+    box-shadow: 0 0 5px red;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,51 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap inicia -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- bootstrap fin -->
     <title>Makeup</title>
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <header>
-        <aside class="logo">
-            <img src="../img/9B43EC01-DE0A-402C-88C6-296DC813E9C0.PNG" alt="">
-            <span>Paramo Cosmetics</span>
-        </aside>
-        <nav class="barra"> 
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="./new+bestsellers.html">New + Best Sellers</a></li>
-                <li><a href="#">Face</a></li>
-                <li><a href="./eyes.html">Eyes</a></li>
-                <li><a href="./lips.html">Lips</a></li>
+      <!-- Inicio -->
+      <nav class="navbar navbar-expand-sm navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              src="../img/Gold White Letter S Typography Initial Letter  Logo.png"
+              alt="Paramo Beauty"
+              class="img-navbar"
+          />  Paramó Cosmetics</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse d-flex justify-content-end"
+            id="collapsibleNavbar"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./new+bestsellers.html"
+                  >New + Bestsellers</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Face</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./eyes.html">Eyes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./lips.html">Lips</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+              </li>
             </ul>
-        </nav>
+          </div>
+        </div>
+      </nav>
+      <!-- fin -->
     </header>
     <main class="main main-home">
-        <div class="call">
-             <h1>Your True Face</h1>
-             <p></p>
-             <a href="#">Read More...</a>
-         </div>
+      <div class="call">
+        <h1>Your True Face</h1>
+        <p></p>
+        <a href="#">Read More...</a>
+      </div>
     </main>
-    <h2 id="sec1">face</h2>
-    <section class="seccion1">
-    <div class="caja caja1">caja1</div>
-    <div class="caja caja2">caja2</div>
-    <div class="caja caja3">caja3</div>
-    <div class="caja caja4">caja4</div>
-    <div class="caja caja5">caja5</div>
-</section>
-<footer>
-    <p>Todos los derechos son reservados por copyrigth</p>
-    <div class="red">
+          <!-- producto empieza -->
+          <h1> New Arrivals</h1>
+          <div class="container">
+            <div class="product-grid">
+                <div class="product">
+                    <img src="img/paleta.jpg" alt="Product 1">
+                    <h3>Palette Perfection</h3>
+                    <p>$35.99</p>
+                    <button class="shop-button">Shop Now</button>
+                </div>
+                <div class="product 2">
+                    <img src="img/hand-g3929ba6af_1280.jpg" alt="Product 2">
+                    <h3>Luxe Brush Collection</h3>
+                    <p>$49.99</p>
+                    <button class="shop-button">Shop Now</button>
+                </div>
+                <div class="product">
+                    <img src="img/makeup2-gf12ecb05b_1280.jpg" alt="Product 3">
+                    <h3>Precision Line Definer</h3>
+                    <p>$12.99</p>
+                    <button class="shop-button">Shop Now</button>
+                </div>
+                <div class="product">
+                    <img src="img/makeup-gba7773e17_1280.jpg" alt="Product 4">
+                    <h3>Velvet Kiss Lipstick</h3>
+                    <p>$18.99</p>
+                    <button class="shop-button">Shop Now</button>
+                </div>
+                <div class="product">
+                    <img src="img/paletapa.JPG" alt="Product 5">
+                    <h3>Limited Edition Palette</h3>
+                    <p>$59.99</p>
+                    <button class="shop-button">Shop Now</button>
+                </div>
+                <div class="product">
+                    <img src="img/PARAMO4.JPG" alt="Product 6">
+                    <h3>Glamour Gem Earrings</h3>
+                    <p>$24.99</p>
+                    <button class="shop-button">Shop Now</button>
+                </div>
+            </div>
+        </div>
+          <!-- producto fin -->
+    <footer>
+      <p>Todos los derechos son reservados por copyrigth</p>
+      <div class="red">
         <i class="fa-brands fa-twitter"></i>
         <i class="fa-brands fa-linkedin"></i>
         <i class="fa-brands fa-facebook"></i>
-    </div>
-</footer>
-<a href="#" class="subir"><i class="fa-solid fa-chevron-up"></i></a>
-</body>
+        <i class="fa-brands fa-pinterest"></i>
+      </div>
+      <!-- Bundle bootstrap -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"
+      ></script>
+      <!-- Bundle bootstrap -->
+    </footer>
+    <a href="#" class="subir"><i class="fa-solid fa-chevron-up"></i></a>
+  </body>
 </html>

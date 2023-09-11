@@ -230,7 +230,7 @@ h2 {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   .container {
     flex-direction: column;
     text-align: center;
@@ -326,7 +326,7 @@ h2 {
     }
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 600px) {
     .footer-container {
       flex-direction: column;
       text-align: center;

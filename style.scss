@@ -12,9 +12,6 @@ $font-bodoni-italic: "Bodoni Moda Italic", serif;
   font-family: $font-montserrat-italic;
 }
 
-html {
-  scroll-behavior: smooth;
-}
 
 .promotions-bar {
   background-color: $color-white;
@@ -230,7 +227,7 @@ h2 {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 578px) {
   .container {
     flex-direction: column;
     text-align: center;
@@ -243,7 +240,7 @@ h2 {
   }
 
   .brand-image {
-    max-width: 80%; // Reducir el ancho de la imagen en modo responsive
+    max-width: 80%; 
     margin: 0 auto;
   }
 
@@ -326,7 +323,7 @@ h2 {
     }
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 578px) {
     .footer-container {
       flex-direction: column;
       text-align: center;
@@ -446,10 +443,11 @@ h1 {
 
 @media only screen and (min-width: 0) and (max-width: 578px) {
   .navbar-collapse {
-    width: 100vw;
+    width: 100%;
     background-color: $color-black;
     display: flex;
     z-index: 2;
+    text-align: left;
   }
 }
 

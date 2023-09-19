@@ -173,57 +173,49 @@ h2 {
 
 /* producto fin */
 /* descripcion empieza */
-.about-brand {
-  background-color: #f5f5f5;
-  padding: 50px 0;
-}
-.about-brand .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.about-brand .container .col-lg-6 {
-  flex: 0 0 50%;
-}
-.about-brand .container .section-title {
-  font-size: 24px;
-  color: #333;
-  margin-bottom: 20px;
-  font-weight: bold;
-}
-.about-brand .container .section-description {
-  font-size: 16px;
-  color: #666;
-  line-height: 1.5;
-}
-.about-brand .container .brand-image {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 50%;
-  overflow: hidden;
-  width: 300px;
-  height: 300px;
+section h2 {
+  background-color: #000000;
+  margin: auto;
+  color: #BEA6A0;
 }
 
-@media screen and (max-width: 578px) {
-  .container {
+.nleft {
+  background-color: #ffffff;
+  background-image: url(../img/logo.png);
+  height: 450px;
+  background-attachment: scroll;
+}
+
+.nright {
+  background-color: #ffffff;
+}
+.nright h3 {
+  text-align: center;
+  font-family: "Bodoni Moda Italic", serif;
+}
+.nright p {
+  font-family: "Bodoni Moda Italic", serif;
+}
+
+@media only screen and (min-width: 0) and (max-width: 578px) {
+  .about-brand {
+    display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
   }
-  .col-lg-6 {
-    flex: 0 0 100%;
-    margin-bottom: 20px;
-    text-align: center;
+  .about-brand .section-title {
+    font-size: 10px;
+    margin-bottom: 10px;
   }
-  .brand-image {
-    max-width: 80%;
-    margin: 0 auto;
+  .about-brand .section-description {
+    font-size: 16px;
+    max-width: 100%;
+    margin-bottom: 18px;
   }
-  .section-description {
-    max-height: 9em;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  .about-brand .brand-image {
+    max-width: 70%;
+    margin-top: 18px;
   }
 }
 /* descrpcion fin */
@@ -286,7 +278,7 @@ h2 {
   background-color: darkred;
 }
 
-@media screen and (max-width: 578px) {
+@media screen and (max-width: 768px) {
   .footer-container {
     flex-direction: column;
     text-align: center;
@@ -387,10 +379,13 @@ h1 {
 .business-info {
   flex: 1;
   padding: 20px;
-  background-color: #BEA6A0;
+  background-color: #000000;
   color: #ffffff;
   border-radius: 5px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 10px #000000 0, 0, 0, 0.1;
+}
+.business-info h2 {
+  background-color: #000000;
 }
 
 .business-info h2 {
